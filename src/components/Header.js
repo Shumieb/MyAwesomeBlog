@@ -2,7 +2,7 @@ import Link from "next/link"
 
 function Header() {
     return (
-        <header className="mb-5 flex justify-between align-center p-2 bg-violet-950 text-white">
+        <header className="flex justify-between align-center p-2 bg-violet-950 text-white">
             <p className="text-2xl py-2 hover:text-violet-100"><Link href="/">My Awesome Blog</Link></p>
             <nav className="py-2 px-6">
                 <ul className="flex justify-end align-center">
