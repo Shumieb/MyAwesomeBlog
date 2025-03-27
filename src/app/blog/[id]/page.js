@@ -1,8 +1,11 @@
+import BlogList from '@/components/BlogList'
 import React from 'react'
 
 function Blog() {
     return (
-        <div>Blog</div>
+        <div>
+            <p>blog</p>
+        </div>
     )
 }
 

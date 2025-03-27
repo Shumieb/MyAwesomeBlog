@@ -1,6 +1,11 @@
+import NewsLetterForm from "@/components/NewsLetterForm"
+
 function About() {
     return (
-        <div>About</div>
+        <div>
+            About
+            <NewsLetterForm />
+        </div>
     )
 }
 
